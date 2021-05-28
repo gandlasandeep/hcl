@@ -8,6 +8,7 @@ public class SynchronizationDemo {
 		Thread t2 = new Thread(new Thread2(obj));
 		t1.start();
 		t2.start();
+		System.out.println("Changed After commit");
 
 	}
 
